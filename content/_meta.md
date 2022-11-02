@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/globe.png
+Tagline: Portfolio
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/garneij/isga22-portfolio
       icon: github
 ---
