@@ -15,7 +15,13 @@
 }
 
 .nav a, .nav-toggle {
-    color: #333;
+    color: var(--darkClr);
+    font-weight: bold;
+    transition: color 300ms;
+}
+
+.nav a:hover {
+    color: var(--accentClr);
 }
 
 .nav-toggle {

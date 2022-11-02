@@ -1,3 +1,10 @@
+:root {
+    /* --darkClr: #0C177E; */
+    --darkClr: #161616;
+    --lightClr: #E8E8E8;
+    --accentClr: #2047d4;
+}
+
 * {
     box-sizing: border-box;
     border: 0 none;
@@ -26,7 +33,7 @@ body {
 
 .main {
     flex: 1 0 auto;
-    max-width: 80%;
+    max-width: 70%;
     margin: 1rem auto;
 }
 
@@ -35,21 +42,28 @@ body {
 }
 
 /* Header */
-
-.header, .site-header {
+.header {
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
+
+}
+ .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 2rem;
 }
 
 /* Title */
 
-.title, .logo {
-    padding: 3em 3em 3em 0;
-}
+/* .title, .logo {
+    padding: 2em;
+} */
 
 @media (max-width: 767px) {
     .title, .logo {
-        padding: 1em 1em 1em 0;
+        padding: 1em;
     }
     .title {
         min-width: 50%;
@@ -60,11 +74,16 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: var(--darkClr);
 }
 
 .title p {
     font-style: italic;
+}
+/* Main */
+.me {
+    max-width: 200px;
+    margin-right: 2rem;
 }
 
 /* Footer */
@@ -72,29 +91,35 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 2px solid var(--darkClr);
+    padding: 2rem;
+    /* background-color: var(--darkClr); */
+    /* color: var(--lightClr); */
 }
 
 .footer a {
-    color: #222;
+    /* color: var(--lightClr); */
+    color: var(--darkClr);
 }
 
 .footer .social {
     font-size: 2rem;
 }
 
-/* Typografy */
+/* Typography */
 
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    background-color:var(--lightClr);
+    color: var(--darkClr);
 }
 
 p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    margin-bottom: 0.6em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -104,6 +129,10 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
