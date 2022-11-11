@@ -1,6 +1,7 @@
 ---
 Title: Hem
 Description: Home page
+icon: fa fa-home
 ---
 
 Om mig
