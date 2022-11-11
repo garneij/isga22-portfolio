@@ -1,14 +1,25 @@
+/* Font awesome */
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+/* Normalize CSS */
 @import '../../node_modules/normalize.css/normalize';
+
 @import 'variables';
+@import 'utility';
+@import 'typography';
+@import 'globals';
 
 @import 'blockquotes';
-@import 'mobile-menu';
 @import 'code';
+@import 'mobile-menu';
 
-body {
-    background-color: $background-color;
-}
+@import 'header';
+@import 'main';
+@import 'footer';
 
-* {
-    color: $font-color;
-}
+
+
