@@ -6431,7 +6431,7 @@ template {
 body {
   font-family: Helvetica, sans-serif;
   line-height: 1.2;
-  color: #4B5673;
+  color: #4b5673;
 }
 
 p,
@@ -6439,7 +6439,6 @@ td,
 th,
 li,
 dd {
-  text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
   margin-bottom: 0.6em;
@@ -6458,7 +6457,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #4B5673;
+  color: #4b5673;
 }
 
 /* Import variables */
@@ -6543,7 +6542,7 @@ pre code {
 
 .active {
   border-radius: 10px;
-  background-color: #4B5673;
+  background-color: #4b5673;
   color: #e8e8e8;
 }
 
@@ -6630,11 +6629,10 @@ pre code {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid var(--darkClr);
   padding: 2rem;
 }
 .footer a {
-  color: #4B5673;
+  color: #4b5673;
 }
 .footer .social {
   font-size: 2rem;
