@@ -1,33 +1,36 @@
 /* Header */
 
 .header {
-  flex: 0 0 auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
 }
 
 .site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }
+
 .title {
-  h1 {
-    margin: 0;
-  }
-  p {
-    margin: 0;
-  }
+    h1 {
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
 }
 
 //   Media queries
 @media (max-width: 767px) {
-  .title {
-    min-width: 50%;
-  }
-  .logo {
-    max-width: 30%;
-  }
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
 }
