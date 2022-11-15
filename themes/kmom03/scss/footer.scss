@@ -1,0 +1,25 @@
+/* Footer */
+.footer {
+    flex: 0 0 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+    a {
+        color: $font-color;
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+}
+
+/* Media query */
+@media (max-width: 767px) {
+    .footer {
+        gap: 1rem;
+    }
+}

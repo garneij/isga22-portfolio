@@ -1,0 +1,38 @@
+// Typography
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
+@import url('https://use.typekit.net/urg0fik.css');
+
+body {
+    font-family: $font-family;
+    line-height: 1.2;
+    color: $font-color;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin-bottom: 0.6em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-alt;
+    margin-bottom: 0.4em;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: $font-color;
+}
