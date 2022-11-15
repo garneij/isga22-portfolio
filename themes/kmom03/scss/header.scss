@@ -1,0 +1,44 @@
+/* Header */
+
+.header {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.title {
+    h1 {
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+//   Media queries
+@media (max-width: 767px) {
+    .site-header {
+        gap: 1rem;
+    }
+
+    .title {
+        min-width: 50%;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
