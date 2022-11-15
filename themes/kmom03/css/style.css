@@ -6627,11 +6627,6 @@ pre code {
   margin-right: 2rem;
 }
 
-/* report.scss */
-.kmom-box.project {
-  grid-column: span 3;
-}
-
 /* technologies.scss */
 .landingpage {
   width: 100%;
@@ -6648,7 +6643,8 @@ pre code {
 .landingpage h2 {
   margin: 0;
 }
-.landingpage .grid-item {
+
+.grid-item {
   background-color: #4b5673;
   padding: 1rem;
   width: 100%;
@@ -6656,7 +6652,7 @@ pre code {
   text-align: center;
   text-transform: uppercase;
 }
-.landingpage .grid-item a {
+.grid-item a {
   color: #e8e8e8;
   display: inline-block;
 }
@@ -6673,7 +6669,10 @@ pre code {
   .landingpage {
     grid-template-columns: repeat(1, 1fr);
   }
-  .landingpage h1, .grid-item, .span-2, .span-3 {
+  .landingpage h1,
+.grid-item,
+.span-2,
+.span-3 {
     grid-column: span 1;
   }
 }
@@ -6689,11 +6688,13 @@ pre code {
   align-items: flex-start;
   padding-left: 0;
 }
-.sidebar .sidebar-menu li {
+
+.sidebar-menu li {
   list-style: none;
   padding: 0.5rem;
 }
-.sidebar .active a {
+
+.active a {
   color: #e8e8e8;
   display: inline-block;
 }
