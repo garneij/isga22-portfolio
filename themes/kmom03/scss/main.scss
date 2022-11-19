@@ -11,3 +11,9 @@
     max-width: 200px;
     margin-right: 2rem;
 }
+
+@media (max-width: 450px) {
+    .me {
+        max-width: 70%;
+    }
+}
