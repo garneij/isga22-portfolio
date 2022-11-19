@@ -9,7 +9,7 @@
         
         <nav class="sidebar">
             <ul class="sidebar-menu">
-                {% for page in pages("technologies") %}
+                {% for page in pages("technology") %}
                     <li{% if page.id==current_page.id %} class="active" {% endif %}>
                         <a href="{{ page.url }}">{{ page.title }}</a>
                     </li>
