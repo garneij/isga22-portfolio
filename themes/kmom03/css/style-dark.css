@@ -6736,3 +6736,6 @@ pre code {
     gap: 1rem;
   }
 }
+.main {
+  background-color: yellow;
+}
