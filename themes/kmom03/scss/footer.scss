@@ -1,15 +1,18 @@
 /* Footer */
 .footer {
     flex: 0 0 auto;
+    align-items: flex-end;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    align-items: baseline;
+    padding: 1rem 2rem;
 
     a {
         color: $font-color;
+        margin-right: 0.5rem;
     }
 
     .social {
