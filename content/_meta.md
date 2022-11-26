@@ -1,5 +1,5 @@
 ---
-Logo: image/globe.png
+Logo: image/globe_outline.png
 Tagline: Portfolio
 Social:
     - title: Link till sidans github repo.
@@ -7,8 +7,8 @@ Social:
       icon: fab fa-github
     - title: Dark Mode
       url: ?action=theme
-      icon: fas fa-moon
+      icon: fa fa-moon
     - title: Destory Session
       url: ?action=session_destroy
-      icon: fas fa-trash
+      icon: fa fa-trash
 ---
