@@ -14,5 +14,5 @@ Mina intressen inkluderar design, musik och all sorts teknik. Jag har testat på
 För ca 2 år sedan började jag intressera mig av webbutveckling och lärde mig själv från youtube både HTML, CSS och lite JS. Dock tycker jag att det har varit väldigt lärorikt att nu studera det på riktigt och få testa nya tekniker och ramverk. Jag ser fram emot att fortsätta utvecklas inom design och tillgänglighet på webben. 
 
 ![Bild på mig själv](%base_url%/image/me2.png){.me}
-![illustration av en kaffekopp och socker](%base_url%/image/kaffe_illustration.png){.me}
+<!-- ![illustration av en kaffekopp och socker](%base_url%/image/kaffe_illustration.png){.me} -->
 
