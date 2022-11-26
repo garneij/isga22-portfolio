@@ -8,7 +8,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 /* Normalize CSS */
 @import '../../node_modules/normalize.css/normalize';
 
-@import 'variables';
+@import 'variables-dark';
 @import 'utility';
 @import 'typography';
 @import 'globals';
@@ -22,8 +22,3 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'technologies';
 @import 'technology';
 @import 'footer';
-
-.main {
-    background-color: yellow; 
-    
-}
