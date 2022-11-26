@@ -3,6 +3,7 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://use.typekit.net/urg0fik.css');
 
 body {
@@ -28,7 +29,7 @@ h4,
 h5,
 h6 {
     font-family: $font-family-alt;
-    margin-bottom: 0.4em;
+    margin: 0 0 0.4em 0;
     font-weight: 400;
 }
 
