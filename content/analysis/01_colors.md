@@ -20,7 +20,7 @@ För att utföra undersökningen använde jag mig av Chrome tillägget CSS Peepe
 ### Hemsida 1 - Phils Finest
 ![Bild på webbplatsen Phils Finest](%base_url%/image/philsfinest.png)
 
-<table style="border-spacing: 4px; border-collapse: separate">
+<table style="border-spacing: 4px; border-collapse: separate; margin-bottom: 0.6rem;">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #acff93">
         <td style="height: 50px; width: 50px; background-color: #FF8080">
@@ -36,7 +36,7 @@ Webbplatsen [Phils Finest](https://www.philsfinest.com/) använder sig av komple
 
 ![Bild på webbplatsen Enko](%base_url%/image/Enko.png)
 
-<table style="border-spacing: 4px; border-collapse: separate">
+<table style="border-spacing: 4px; border-collapse: separate; margin-bottom: 0.6rem;">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #004e35">
         <td style="height: 50px; width: 50px; background-color: #88e53e">
@@ -49,7 +49,7 @@ Webbplatsen [Phils Finest](https://www.philsfinest.com/) använder sig av komple
 
 ![Bild på webbplatsen Teller](%base_url%/image/Teller.png)
 
-<table style="border-spacing: 4px; border-collapse: separate">
+<table style="border-spacing: 4px; border-collapse: separate; margin-bottom: 0.6rem;">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #383838">
         <td style="height: 50px; width: 50px; background-color: #EAE0D0">
