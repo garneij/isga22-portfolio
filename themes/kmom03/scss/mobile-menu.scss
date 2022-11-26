@@ -10,7 +10,7 @@
         display: flex;
         justify-content: flex-end;
         padding: 1em 0;
-        list-style: none; 
+        list-style: none;
         font-family: $font-family-alt;
     }
 
@@ -32,6 +32,7 @@
     background-color: $accent-color;
     // color: $background-color;
 }
+
 .active a {
     color: $font-color;
 }

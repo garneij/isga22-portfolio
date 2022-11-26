@@ -13,9 +13,11 @@
     align-items: center;
     gap: 2rem;
 }
+
 .logo {
     filter: invert($invert);
 }
+
 .title {
     h1 {
         margin: 0;
