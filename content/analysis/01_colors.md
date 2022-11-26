@@ -34,7 +34,7 @@ Webbplatsen [Phils Finest](https://www.philsfinest.com/) använder sig av komple
 
 ### Hemsida 2 - Enko
 
-![Bild på webbplatsen Enko](%base_url%/image/enko.png)
+![Bild på webbplatsen Enko](%base_url%/image/Enko.png)
 
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr>
