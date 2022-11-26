@@ -2,7 +2,7 @@
 
 .main {
     flex: 1 0 auto;
-    max-width: 70%;
+    max-width: clamp(30%, 60%, 800px) ;
     min-height: 50vh;
     margin: 1rem auto;
 }
@@ -10,6 +10,8 @@
 .me {
     max-width: 200px;
     margin-right: 2rem;
+    filter: contrast($contrast) grayscale(100%);
+    // filter: ;
 }
 
 @media (max-width: 450px) {
