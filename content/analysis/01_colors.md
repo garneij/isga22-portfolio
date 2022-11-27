@@ -9,7 +9,7 @@ Template: analysis
 Uppgiften om färganalys syftar till att analysera valet av färger på olika hemsidor och deras inverkan på profil, känsla och intryck.
 
 ## Urval
-De webbplatser jag valde att undersöka var [Phils Finest](https://www.philsfinest.com/), [Enko](https://www.enko.ag) och [Teller](https://www.weareteller.com). För att göra mitt urval använde jag mig dels av sidan [Minimal Gallery](https://minimal.gallery/) och gjorde därifrån valen Enko och Teller då jag ansåg att färgpaletterna var intressanta. Vidare valde jag även att analysera sidan Phils Finest på grund av dess färger. 
+De webbplatser jag valde att undersöka var [Phils Finest](https://www.philsfinest.com/), [Enko](https://www.enko.ag) och [Teller](https://www.weareteller.com). För att göra mitt urval använde jag mig av sidan [Minimal Gallery](https://minimal.gallery/) och gjorde därifrån valen Enko och Teller då jag ansåg att färgpaletterna var intressanta. Vidare valde jag även att analysera sidan Phils Finest på grund av dess färger. 
 
 ## Metod
 
@@ -65,7 +65,7 @@ Webbplatsen [Phils Finest](https://www.philsfinest.com/) använder sig av komple
 
 Känslan av en webbplats påverkas starkt av både färgval och typografi vilket denna korta undersökning kan visa på. Trots att båda Teller och Enko har ett liknande minimalistisk tillvägagångssätt till både färg och typografi anser jag att de ger olika intryck. 
 
-Enkos profil grundar sig färgen grönt som associeras med naturen och ger en känsla av lugn och fräschhet. Webbplatsen Teller å andra sidan ger också en känsla av lugn anser jag men på grund av de varma färgerna gult och orange ger känsla av sol och harmoni. Phils Finest har till skillnad från de föregående nämnda webbplatserna gått för en annan känsla och använder sig både av typografi och kontrasterande färger för att bidra till en lekfull känsla.
+Enkos profil grundar sig färgen grönt som associeras med naturen och ger en känsla av lugn och fräschhet. Webbplatsen Teller å andra sidan ger också en känsla av lugn anser jag men på grund av de varma färgerna gult och orange ger det en känsla av sol och harmoni. Phils Finest har till skillnad från de föregående nämnda webbplatserna gått för en annan känsla och använder sig både av typografi och kontrasterande färger för att bidra till en lekfull känsla.
 
 ## Övrigt
 
