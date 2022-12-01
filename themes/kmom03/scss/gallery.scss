@@ -1,0 +1,17 @@
+.gallery-wrapper {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem; 
+}
+
+.gallery-item {
+    grid-column: span 1;
+}
+
+@media (max-width: 668px) {
+    .gallery-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
