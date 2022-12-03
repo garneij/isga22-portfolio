@@ -27,14 +27,12 @@
 
 .active {
     border-radius: 10px;
-    // border: 2px solid $font-color;
-    // box-shadow: 0px 2px 2px 2px   $accent-color;
-    background-color: $accent-color;
-    // color: $background-color;
+    background-color: $second-color;
+    color: $accent-color;
 }
 
 .active a {
-    color: $font-color;
+    color: $accent-color;
 }
 
 .nav-toggle {

@@ -5,13 +5,14 @@
 }
 
 .footer {
+    background-color: $third-color;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     padding: 1rem 2rem;
-
+    color: $font-color-light;
     a {
-        color: $font-color;
+        color: $font-color-light;
         margin-right: 0.5rem;
     }
 

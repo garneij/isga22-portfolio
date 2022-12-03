@@ -6451,7 +6451,7 @@ template {
 body {
   font-family: Helvetica, sans-serif;
   line-height: 1.2;
-  color: #1e1e1e;
+  color: #26283C;
 }
 
 p,
@@ -6477,7 +6477,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #1e1e1e;
+  color: #26283C;
 }
 
 /* Import variables */
@@ -6494,7 +6494,7 @@ a {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #f0f0f0;
+  background-color: #fff;
   min-height: 100vh;
 }
 
@@ -6519,9 +6519,9 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #1e1e1e;
+  border: 1px solid #26283C;
   border-radius: 0.3em;
-  background: #c4c4c4;
+  background: #E4E9FF;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6529,9 +6529,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #1e1e1e;
+  border: 1px solid #26283C;
   border-radius: 0.3em;
-  background: #c4c4c4;
+  background: #E4E9FF;
 }
 
 pre code {
@@ -6564,11 +6564,12 @@ pre code {
 
 .active {
   border-radius: 10px;
-  background-color: #c4c4c4;
+  background-color: #E4E9FF;
+  color: #5E77E6;
 }
 
 .active a {
-  color: #1e1e1e;
+  color: #5E77E6;
 }
 
 .nav-toggle {
@@ -6626,6 +6627,7 @@ pre code {
   margin: 0;
 }
 .title p {
+  color: #5E77E6;
   margin: 0;
 }
 
@@ -6648,7 +6650,7 @@ pre code {
   flex: 1 0 auto;
   max-width: clamp(30%, 60%, 800px);
   min-height: 50vh;
-  margin: 1rem auto;
+  margin: 0 auto 1rem;
 }
 
 .me {
@@ -6680,7 +6682,7 @@ pre code {
 }
 
 .grid-item {
-  background-color: #1e1e1e;
+  background-color: #26283C;
   padding: 1rem;
   width: 100%;
   justify-self: center;
@@ -6688,7 +6690,7 @@ pre code {
   text-transform: uppercase;
 }
 .grid-item a {
-  color: #f0f0f0;
+  color: #fff;
   display: inline-block;
 }
 
@@ -6737,6 +6739,23 @@ pre code {
     display: none;
   }
 }
+.gallery-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.gallery-item {
+  grid-column: span 1;
+}
+
+@media (max-width: 668px) {
+  .gallery-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
 /* Footer */
 .footer {
   flex: 0 0 auto;
@@ -6744,13 +6763,15 @@ pre code {
 }
 
 .footer {
+  background-color: #2A3566;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   padding: 1rem 2rem;
+  color: #fff;
 }
 .footer a {
-  color: #1e1e1e;
+  color: #fff;
   margin-right: 0.5rem;
 }
 .footer .social {

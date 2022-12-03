@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    
 }
 
 .site-header {
@@ -19,11 +20,14 @@
 }
 
 .title {
+   
     h1 {
+        // color: $accent-color;
         margin: 0;
     }
 
     p {
+        color: $accent-color;
         margin: 0;
     }
 }
