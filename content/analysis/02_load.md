@@ -21,11 +21,11 @@ Undersökningen utfördes genom att använda utvecklarverktyget i Chrome och Pag
 Resultat
 -----------------------
 ### 1177
-![1177 Hemsida](%base_url%/image/1177.png)
+![1177 Hemsida](%base_url%/image/1177.png?q=50)
 ### Göteborgs Stad
-![Göteborgs stad Hemsida](%base_url%/image/goteborg.png)
+![Göteborgs stad Hemsida](%base_url%/image/goteborg.png?q=50)
 ### Västtrafik
-![Västtrafiks hemsida](%base_url%/image/vasttrafik.png)
+![Västtrafiks hemsida](%base_url%/image/vasttrafik.png?q=50)
 <div class="iframe-container">
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQBvIWuzmocyjRIY_7A2VTe5vQb7MckDEI4KMKvjOssOvlo4dC-Jcc97pD59epQDpBbz-QpjwIFmvgA/pubhtml?widget=true&amp;headers=false"></iframe>
 </div>
@@ -33,7 +33,7 @@ Resultat
 
 Analys
 -----------------------
-Av PageSpeed Insights fick endast Göteborgsstads mobila version godkänt och Västtrafiks skrivbords version godkänt. Resterande passerade ej testet. Det som i alla fallen gjorde att webbplatsen ej klarade testet var Cumulative Layout Shift, vilket innebär att layouten kan skiftas vilket påverkar användarens upplevelse. För att förbättra webbplatserna behöver då detta åtgärdas vilket som kan göras genom att sätta width och height på bilder, vilket även PageSpeed Insights gav som förslag på utveckling för webbplatserna. Att reducera JavaScript och CSS som inte används var också förslag för förbättrad prestanda. 
+Av PageSpeed Insights fick endast Göteborgs Stads mobila version godkänt och Västtrafiks skrivbords version godkänt. Resterande passerade ej testet. Det som i alla fallen gjorde att webbplatsen ej klarade testet var Cumulative Layout Shift, vilket innebär att layouten kan skiftas vilket påverkar användarens upplevelse. För att förbättra webbplatserna behöver då detta åtgärdas vilket som kan göras genom att sätta width och height på bilder, vilket även PageSpeed Insights gav som förslag på utveckling för webbplatserna. Att reducera JavaScript och CSS som inte används var också förslag för förbättrad prestanda. 
 
 ### Rangordning
 Baserat på mätvärden rangordnar jag webbplatserna
@@ -45,7 +45,7 @@ Göteborgs Stads Hemsida hade den näst snabbaste laddningstiden samt även den 
 
 Västtrafik rangordnar jag som tvåa trots laddningstid på 2s och total storlek på 2,9MB. Västtrafik klarade PageSpeed Insights för Skrivbordsversionen. 
 
-1177 hade snabbast laddningstid men klarade inte PageSpeed Insights testen för varken mobil eller skrivbordsversion.
+1177 hade snabbast laddningstid men klarade inte PageSpeed Insights testen för varken mobil eller skrivbordsversion och därför rankar jag den webbplatsen sist.
 
 ### Laddningstid
 En laddningstid som jag själv uppfattar som snabb är under eller lika med 1s. En långsam laddningstid å andra sidan skulle jag säga är över 2s. Mitt urval av webbplatser är klarar då inte mitt gränsvärde för att klassificeras som snabba. I allmänhet upplever jag webbplatserna som relativt snabba och responsiva. Att ladda in bilder tar i vissa fall lite längre tid. 
