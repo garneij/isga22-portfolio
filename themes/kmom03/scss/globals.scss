@@ -15,6 +15,22 @@ body {
     flex-direction: column;
     background-color: $background-color;
     min-height: 100vh;
+    position:relative;
+}
+
+body::after {
+    content:"";
+    background: url(../../../assets/img/rectangle.jpg);
+    width: 100%;
+    height: 100%;
+    filter: invert($invert);
+    display: block;
+    position: absolute;
+    z-index: -2;
+    opacity: 30%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
 }
 
 ol,
@@ -24,4 +40,5 @@ ul {
 
 img {
     max-width: 100%;
+    height: auto;
 }
