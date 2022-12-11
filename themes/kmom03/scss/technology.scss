@@ -2,6 +2,18 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 2fr;
+
+    h2 {
+        margin: 0.75rem 0 0.25rem;
+    }
+
+    h3 {
+        margin: 0.75rem 0 0.25rem;
+    }
+
+    img {
+        margin-bottom: 1rem;
+    }
 }
 
 .sidebar {
